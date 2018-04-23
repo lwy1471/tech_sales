@@ -1,0 +1,5 @@
+<? $date.reformatDateTime('MM월 dd일') ?>, <? $time.reformatDateTime('a h:mm') ?>에 <? $menu ?>로 예약이 완료되었습니다.
+
+
+
+ "deleted":"<? context.remove('date') ?> <? context.remove('time') ?> <? context.remove('menu') ?>"
