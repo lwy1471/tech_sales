@@ -1,0 +1,14 @@
+-깃허브 주소 : 
+https://github.com/lwy1471/tech_sales/tree/master/documents
+
+-41 p. 코드
+<? $date.reformatDateTime('MM월 dd일') ?>, <? $time.reformatDateTime('a h:mm') ?>에 <? $menu ?>로 예약이 완료되었습니다.
+
+
+-43 p. 코드
+
+{
+  "output": {
+    "deleted": "<? context.remove('date') ?> <? context.remove('time') ?> <? context.remove('menu') ?>"
+  }
+}
